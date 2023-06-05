@@ -1,5 +1,11 @@
 
-![](https://github.com/jenish-svg/gptactical/assets/82645243/04e8e883-5c6d-469c-b8f7-35a8b81a8377)
+
+
+
+![gptactical](https://github.com/jenish-svg/gptactical/assets/82645243/39a7095f-eb42-4255-a9fd-dfc49c291b02)
+
+
+
 
 
 Introducing GPTactical: An AI-powered, automated bug bounty recon tool. Perform efficient reconnaissance with subdomain enumeration, HTTP and port scanning, web exploitation, and receive a consolidated report. Developed with the help of AI GPT technology, GPTactical accelerates your bug bounty hunting efforts.
@@ -42,4 +48,41 @@ chmod +x gptactical.sh
 ```bash
 ./gptactical -h
 ```
+
+For single domain or wildcard domain 
+```bash
+./gptactical.sh -t example.com
+```
+For list of subdomians 
+```bash
+./gptactical.sh -l /.../...../...../  ( path containing subdomain list )
+```
+
+# Example
+
+
+
+![Screenshot gptactical](https://github.com/jenish-svg/gptactical/assets/82645243/34996089-6c11-40e9-bcde-acc5877523a8)
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Devloped by :- Jenish Zinzuvadiya
+
+
+<a href="https://www.instagram.com/jenish._.soni"><img src="https://i.ibb.co/RpWfPgD/image-removebg-preview-3.png" alt="Follow me on Instagram" width="20" height="20"></a>
+
+
+<a href="https://www.linkedin.com/in/jenish-zinzuvadiya-39619821b/"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Follow me on Instagram" width="20" height="20"></a>
+
+<a href="https://twitter.com/jenish_soni13"><img src="https://img.freepik.com/free-icon/twitter_318-674515.jpg" alt="Follow me on Instagram" width="20" height="20"></a>
+
+
+
+
+
+
+
 
