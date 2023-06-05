@@ -29,4 +29,11 @@ Introducing GPTactical: An AI-powered, automated bug bounty recon tool. Perform 
    - [Sstimap](https://github.com/maurosoria/sstic)
 
 
+# Installation & Usage
 
+```bash
+sudo update
+
+git clone https://github.com/jenish-svg/gptactical.git
+
+```
