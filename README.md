@@ -1,5 +1,5 @@
 
-![GPtACTICAL (2)](https://github.com/jenish-svg/gptactical/assets/82645243/04e8e883-5c6d-469c-b8f7-35a8b81a8377)
+![](https://github.com/jenish-svg/gptactical/assets/82645243/04e8e883-5c6d-469c-b8f7-35a8b81a8377)
 
 
 Introducing GPTactical: An AI-powered, automated bug bounty recon tool. Perform efficient reconnaissance with subdomain enumeration, HTTP and port scanning, web exploitation, and receive a consolidated report. Developed with the help of AI GPT technology, GPTactical accelerates your bug bounty hunting efforts.
@@ -35,5 +35,11 @@ Introducing GPTactical: An AI-powered, automated bug bounty recon tool. Perform 
 sudo update
 
 git clone https://github.com/jenish-svg/gptactical.git
-
+cd gptactical
+chmod +x gptactical.sh
 ```
+
+```bash
+./gptactical -h
+```
+
