@@ -8,7 +8,14 @@
 
 
 
-Introducing GPTactical: An AI-powered, automated bug bounty recon tool. Perform efficient reconnaissance with subdomain enumeration, HTTP and port scanning, web exploitation, and receive a consolidated report. Developed with the help of AI GPT technology, GPTactical accelerates your bug bounty hunting efforts.
+Introducing GPTACTICAL: An AI-powered, automated bug bounty recon tool. Perform efficient automated reconnaissance on bug bounty target. Developed with the help of AI & chatgpt technology, this tool help you in your bug bounty hunting .
+
+# Key Features
+
+- **Recon**            :- Perform subdomain enum and information gathering.
+- **Port scanning**    :- Check open ports and server isssues.
+- **Web exploitation** :- identify common web vulnerabilities.
+
 
 # Tools used 
 1. Subdomain Enumeration Tools:
@@ -44,9 +51,32 @@ git clone https://github.com/jenish-svg/gptactical.git
 cd gptactical
 chmod +x gptactical.sh
 ```
-
+Usage and Help option
 ```bash
-./gptactical -h
+┌──(root㉿kali)-[/home/kali/gptactical]
+└─# ./gptactical.sh -h
+ 
+
+ ██████╗ ██████╗ ████████╗ █████╗  █████╗ ████████╗██╗ █████╗  █████╗ ██╗     
+██╔════╝ ██╔══██╗╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝██║██╔══██╗██╔══██╗██║     
+██║  ██╗ ██████╔╝   ██║   ███████║██║  ╚═╝   ██║   ██║██║  ╚═╝███████║██║     
+██║  ╚██╗██╔═══╝    ██║   ██╔══██║██║  ██╗   ██║   ██║██║  ██╗██╔══██║██║
+╚██████╔╝██║        ██║   ██║  ██║╚█████╔╝   ██║   ██║╚█████╔╝██║  ██║███████╗
+ ╚═════╝ ╚═╝        ╚═╝   ╚═╝  ╚═╝ ╚════╝    ╚═╝   ╚═╝ ╚════╝ ╚═╝  ╚═╝╚══════╝
+    __                                                          __
+   / _/                                                        /_ /
+  / /     An Automatic Recon tool made with help of ChatGpt    / / 
+ / /    Created BY - Jenish Zinzuvadiya                       / /  
+/__/                                                        /__/    
+You may face some errror if there are some tools installed in your system
+ if any tool is installed using docker it will not work
+Usage: ./gptactical.sh [-t <target_domain>] [-l <subdomain_list>] [-h]
+
+Options:
+  -t <target_domain>      Add target domain
+  -l <subdomain_list>     Add list of subdomains
+  -h                      Display help
+
 ```
 
 For single domain or wildcard domain 
